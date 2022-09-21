@@ -25,12 +25,10 @@ Run it locally using yarn or npm:
 ```
 $ npm install
 $ npm start
-
 ```
 
 ```
 $ yarn install
 $ yarn start
-
 ```
 
