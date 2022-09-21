@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.main h1 {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  color: antiquewhite;
+}
+.main h1 span {
+  color: rgb(215, 131, 28);
+}
+.main .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+}
+.main .buttons button {
+  width: 50%;
+  height: 60px;
+  padding: 10px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+}
+.main .buttons button:hover {
+  background-color: rgb(3, 120, 79);
+  color: #fff;
+}/*# sourceMappingURL=Dashboard.module.css.map */
