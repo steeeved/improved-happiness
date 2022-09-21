@@ -1,0 +1,90 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.main h1 {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  font-weight: 900;
+  color: antiquewhite;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.main .form {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  width: auto;
+  gap: 4em;
+}
+.main .form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.main .form form .info {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px;
+}
+.main .form form .info label {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.main .form form .info input {
+  height: 40px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.main .form form .info input input:-moz-placeholder-shown {
+  font-size: 20px;
+}
+.main .form form .info input input:-ms-input-placeholder {
+  font-size: 20px;
+}
+.main .form form .info input input:placeholder-shown {
+  font-size: 20px;
+}
+.main .form .btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  margin: 0;
+}
+.main .form .btns button {
+  width: 100%;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.main .form .btns button .Link {
+  text-decoration: none;
+  color: inherit;
+}
+.main .form .btns button:hover {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}/*# sourceMappingURL=profile.module.css.map */
