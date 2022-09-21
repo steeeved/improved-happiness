@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--fadedGreen);
+}
+
+:root {
+    --dark-green: rgb(6, 55, 38);
+    --fadedGreen: #4b6346;
+}
