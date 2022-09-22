@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "cite": "Stevedmm",
     "public": "build",
     "ignore": [
       "firebase.json",
